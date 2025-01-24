@@ -73,7 +73,7 @@ def main():
     # Create bucket if needed
     dashboard.create_bucket_if_not_exists()
     
-    cities = ["Philadelphia", "Seattle", "New York"]
+    cities = ["Philadelphia", "Seattle", "New York", "Lagos,NG", "Ibadan,NG", "Offa,NG", "Minna,NG", "Ogbomoso,NG"]
     
     for city in cities:
         print(f"\nFetching weather for {city}...")
